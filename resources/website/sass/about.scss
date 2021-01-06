@@ -1,0 +1,373 @@
+.about-us{
+  padding-right: 3rem;
+  padding-left: 3rem;
+  .container-fluid{
+    background-color: white;
+    color: #0b4266;
+  }
+  h1,
+  h4 {
+    font-family: Impact, sans-serif;
+    font-size: 54px;
+    word-spacing: 10px;
+    line-height: 1.2;
+}
+img{
+  height: 270px;
+  width: 270px;
+}
+
+  .bg-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  .overview .bg-image{
+    background-image: url('https://www.wemall.shop/images/website/about-us/5f1e955e32bdf.png');
+    .l-side {
+      background-color: hsla(0, 0%, 96.1%, 0.55);
+      margin-left: -15px;
+      .description{
+        padding: 10rem 1.5rem;
+        text-align: center;
+      }
+    }
+    .contant-pro-top {
+      img{
+        width: 200px;
+        height: 200px;
+      }
+      h6.author {
+        background-color: hsla(0,0%,96.1%,.55);
+        color: #0b4266;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 3px;
+        margin-top: 1rem;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .mission .bg-image {
+    background-image: url('https://www.wemall.shop/images/website/about-us/5f1e955e32bdf.png');
+    .wrap-content{
+      padding: 13rem 10rem 5rem 0;
+      position: relative;
+      .image-mission {
+        position: absolute;
+        top: 75px;
+        left: 25px;
+        z-index: 100;
+      }
+      .bg-gray {
+        background-color: hsla(0, 0%, 96.1%, 0.55);
+        padding: 1rem 3rem 3rem 22rem;
+      }
+    }
+  }
+
+  .vision .bg-image {
+    background-image: url('https://www.wemall.shop/images/website/about-us/5f1e9560ab171.png');
+    .wrap-content{
+      padding: 15rem 0 5rem 10rem;
+      position: relative;
+      .image-vission {
+        position: absolute;
+        top: 80px;
+        right: 25px;
+        z-index: 100;
+      }
+      .bg-gray {
+        background-color: hsla(0, 0%, 96.1%, 0.55);
+        padding: 1rem 25rem 3rem 3rem;
+      }
+    }  
+  }
+
+  .value .bg-image {
+    background-image: url('https://www.wemall.shop/images/website/about-us/5f1e9564e47bd.png');
+    .bg-dark-blue {
+      background: #0b4266;
+      margin-left: -15px;
+      height: 100%;
+      border: 1px solid #0b4266;
+      .title{
+        color: white;
+      }
+      .description{
+        padding: 0 3rem 3rem;
+        color: #f5f5f5;
+      }
+    }
+    .wrap-value {
+      padding-top: 20%;
+      .bg-gray {
+        background-color: hsla(0, 0%, 96.1%, 0.55);
+      }
+    }
+  }
+
+  .sell .bg-image {
+    background-image: url('https://www.wemall.shop/images/website/about-us/5f1e956588876.png');
+    .wrap-content{
+      position: relative;
+      padding: 10% 25% 10% 0;
+      .bg-gray {
+        background-color: hsla(0,0%,96.1%,.55);
+        padding: 1.5rem!important;
+        .font-icon{
+          font-size: 40px;
+        }
+      }
+    }
+  } 
+
+  .choose-us .bg-image{
+    background-image: url('https://www.wemall.shop/images/website/about-us/5f1e956588876.png');
+    .wrap-content {
+      padding: 12rem 0 5rem 5rem;
+      position: relative;
+      .bg-gray {
+        background-color: hsla(0, 0%, 96.1%, 0.55);
+        padding: 1rem 9rem 3rem 3rem;
+        .font-icon{
+          font-size: 40px;
+        }
+      }
+    }
+  }
+
+  .marketplace .bg-image {
+    background-image: url('https://www.wemall.shop/images/website/about-us/5f1e95616e5a8.png');
+    .wrap-content{
+      padding: 10% 5% 10% 26%;
+      position: relative;
+    .bg-gray{
+      background-color: hsla(0, 0%, 96.1%, 0.55);
+      padding: 1rem 9rem 3rem 3rem;
+    }
+    .image-marketplace{
+      position: absolute;
+      top: 15px;
+      left: 15px;
+    }
+    }
+  }
+
+  .looking .bg-image {
+    background-image: url('https://www.wemall.shop/images/website/about-us/5f1e956407b5a.png');
+    .wrap-content {
+      position: relative;
+      padding: 10% 5% 10% 26%;
+      .image-looking {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+      }
+      .bg-gray {
+        background-color: hsla(0, 0%, 96.1%, 0.55);
+        padding: 1rem 9rem 3rem 3rem;
+      }
+    } 
+  }
+
+  .give .bg-image {
+    background-image: url('https://www.wemall.shop/images/website/about-us/5f1e9562b0af1.png');
+    .wrap-content {
+      padding: 7rem 26rem 7rem 3rem;
+      position: relative;
+      .image-give {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+      .bg-gray {
+        background-color: hsla(0, 0%, 96.1%, 0.55);
+        padding: 1rem 9rem 3rem 3rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .about-us{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    img{
+      width: 200px;
+      height: 200px;
+    }
+    h1.title-con, h4{
+      font-size: 40px;
+    }
+    h1.title-con{
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+    }
+    .overview .bg-image{
+    .display1{
+      display: none !important;
+    }
+    .display2{
+      display: block !important;
+    }
+    .l-side {
+      margin: -25px -15px 0px -15px;
+      .description{
+        padding: 2rem 1.5rem;
+        }
+      }
+    }
+
+    .mission .bg-image {
+      .wrap-content{
+        padding: 13rem 0rem 0rem 0rem;
+        .image-mission {
+          top: 15px;
+          left: 15px;
+        }
+        .bg-gray {
+          padding: 3%;
+          margin: 3%;
+        }
+      }  
+    }
+    
+
+    .vision .bg-image {
+      .wrap-content{
+        padding: 13rem 0rem 0rem 0rem;
+      .image-vission {
+        top: 15px;
+        right: 15px;
+      }
+      .bg-gray {
+        padding: 3%;
+        margin: 3%;
+      }
+    } 
+    }
+
+    .value .bg-image {
+      .bg-dark-blue {
+        margin-left: -15px;
+        margin-right: -15px;
+        text-align: center;
+      }
+      .wrap-value {
+        .bg-gray {
+          margin-left: -15px;
+          margin-right: -15px;
+        }
+      }
+    }
+
+    .choose-us .bg-image{
+      .wrap-content{
+        padding: 2% 2% 2% 2%;
+      }
+    }
+
+    .marketplace .bg-image {
+      .wrap-content{
+        padding: 13rem 0rem 0rem 0rem;
+        .image-marketplace{
+          top: 15px;
+          left: 15px;
+        }
+        .bg-gray{
+          padding: 3%;
+          margin: 3%;
+        }
+      }
+    }
+
+    .give .bg-image {
+      .wrap-content {
+        padding: 13rem 0rem 0rem 0rem;
+        .image-give {
+          top: 15px;
+          right: 15px;
+        }
+        .bg-gray {
+          padding: 3%;
+          margin: 3%;
+        }
+      }
+    }
+
+    .sell .bg-image {
+      .wrap-content{
+        padding: 2% 2% 2% 2%;
+      }
+    }
+
+    .looking .bg-image {
+      .wrap-content {
+        padding: 13rem 0rem 0rem 0rem;
+        .image-looking {
+          top: 15px;
+          right: 15px;
+        }
+        .bg-gray {
+          padding: 3%;
+          margin: 3%;
+        }
+      } 
+    }
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us{
+    .overview .bg-image{
+      h1.title-con{
+        padding: 5px;
+      }
+    .display1{
+      display: none !important;
+    }
+    .display2{
+      display: none !important;
+    }
+    .display3{
+      display: block !important;
+      margin: 0 auto;
+    }
+    .l-side {
+      margin: 0;
+      .description{
+        padding: 3% 15px;
+        }
+      }
+    .contant-pro-top img{
+      width: 150px;
+      height: 150px;
+    } 
+  } 
+
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .about-us{
+    h1.title-con, h4{
+      font-size: 30px;
+      text-align: center;
+    }
+    .overview .bg-image{
+      .contant-pro-top {
+        h6{
+          width: 230px;
+          margin: 0 auto;
+          margin-top: 10px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}

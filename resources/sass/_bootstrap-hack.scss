@@ -1,0 +1,208 @@
+
+
+.btn.btn-xs {
+    padding: 0;
+}
+
+// Breadcrumb
+.breadcrumb {
+    background: transparent;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.breadcrumb li {
+    font-size: 14px;
+}
+
+.breadcrumb-item-first {
+    padding-right: 10px;
+}
+
+// Card
+.card {
+    margin-top: 15px;
+    border-radius: 0.4rem;
+    box-shadow: 0 5px 25px 0 hsla(0,0%,48.2%,.15);
+}
+
+.card-head {
+    padding: 0 10px 12px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.card-head header {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    padding: 1.5rem 0 0;
+}
+
+.card-body {
+    padding: 1.25rem 1.25rem;
+}
+
+.card .tools {
+    float: right;
+    display: inline-block;
+    padding: 1rem 0 0;
+}
+
+.card .tools-custom {
+    float: right;
+    //display: inline-block;
+    padding: 1rem 0 0;
+    display: flex;
+}
+
+.card .tools .btn {
+    margin-left: 2px;
+}
+
+.card .tools-custom .btn {
+    margin-left: 4px;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: rgba(242, 243, 243, 0.35);
+}
+
+
+.table-nowrap {
+    thead,
+    tbody {
+        tr {
+
+            th,
+            td {
+                white-space: nowrap !important;
+            }
+        }
+    }
+}
+
+// table.table-bordered.dataTable {
+//     th:last-child {
+//         border-right-width: 1px;
+//     }
+
+//     th:first-child {
+//         border-left-width: 1px;
+//     }
+// }
+
+.table.table-sm {
+    thead,
+    tbody {
+        tr {
+
+            td,
+            th {
+                vertical-align: middle;
+                // padding: 1px 2px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+.table {
+    thead,
+    tbody {
+        tr {
+            th {
+                border-bottom: rgba(189, 193, 193, 0.2);
+                background-color: #fff;
+                color: #212529bd;
+            }
+        }
+    }
+}
+
+table.dataTable.table-sm>thead>tr>th {
+    padding-right: 10px; 
+}
+
+div.dataTables_scrollHead table.table-bordered {
+    border-bottom-width: 1px;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+.btn-warning {
+    color: white;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    color: white;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-info {  
+    color: white;
+}
+
+.input-group-text-default {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.input-group-text-danger {
+    background-color: #DB6668;
+    border-color: #DB6668;
+    color: white;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.nowrap {
+    white-space: nowrap !important;
+    width: auto !important;
+}
+
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-width: 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 1;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+}
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 0;
+}
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 10px;
+}
+
+.fa,.fas {
+    cursor: pointer;
+}
+
+.table td{
+    position:relative;
+}

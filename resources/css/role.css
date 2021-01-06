@@ -1,0 +1,28 @@
+#role #table-permissions {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+#role .padding-left-0 {
+    padding-left: 0;
+}
+
+#role .checkbox-custom {
+    display: inline-flex;
+}
+
+#role .checkbox-custom label {
+    padding-left: 0;
+}
+
+#role .checkbox-custom span {
+    vertical-align: middle;
+}
+
+#role tr[data-parent] {
+    display: none;
+}
+
+#role tr[data-parent].show {
+    display: table-row;
+}

@@ -1,0 +1,18 @@
+// Variables
+@import 'variables';
+
+@function set-sidebar-link-color($color) {
+  @if (lightness($color) > 50) {
+    @return #313131; // Lighter backgorund, return dark color
+  } @else {
+    @return #ffffff; // Darker background, return light color
+  }
+}
+
+@function set-sidebar-link-active-color($color) {
+  @if (lightness($color) > 50) {
+    @return #fff; // Lighter backgorund, return dark color
+  } @else {
+    @return $red; // Darker background, return light color
+  }
+}

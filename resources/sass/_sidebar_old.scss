@@ -1,0 +1,80 @@
+//Sidebar
+.sidebar-lg #sidebar {
+  width: $sidebar-lg-size;
+}
+
+#sidebar {
+  background-color: $sidebar-color;
+  float: left;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: $sidebar-sm-size;
+  z-index: 5;
+  transition: all 0.3s;
+}
+
+#nav {
+  list-style: none;
+  padding-bottom: 50px;
+}
+
+#sidebar li {
+  padding: 4px 0;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+
+#sidebar li.active > a {
+  color: set-sidebar-link-active-color($orange);
+  font-weight: 600;
+  background: $orange;
+  opacity: 1;
+}
+
+#sidebar li:hover > a {
+  font-weight: 600;
+  opacity: 1;
+}
+
+#sidebar li:not(.active):hover > a > i {
+  color: $orange
+}
+
+#sidebar li a {
+  color: set-sidebar-link-color($sidebar-color);
+  display: block;
+  padding: 4px 15px;
+  text-decoration: none;
+  position: relative;
+  opacity: 0.7;
+}
+
+#sidebar li > a > .fal,
+#sidebar li > a > .fa {
+  font-size: 1.1rem;
+  width: 1rem;
+  margin-right: 10px;
+  float: left;
+  position: relative;
+  line-height: 1.6rem;
+}
+
+#sidebar li > p {
+  font-size: 0.8rem;
+  margin: 20px 0 0;
+  text-transform: uppercase;
+  padding: 0 15px;
+  opacity: 0.7;
+}
+
+#brand {
+  display: block;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  background: #444A47;
+}

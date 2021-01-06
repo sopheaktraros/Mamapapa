@@ -1,0 +1,63 @@
+.quick-sidebar {
+  visibility: hidden;
+  position: relative;
+}
+
+.quick-sidebar.open {
+  visibility: visible;
+}
+
+#quick-sidebar-overlay {
+  content: " ";
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.1);
+  bottom: 0;
+  z-index: 996;
+}
+
+.quick-sidebar .container {
+  position: fixed;
+  right: -320px;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  width: 320px;
+  box-shadow: 0 0 15px 1px rgba(69, 65, 78, 0.2);
+  padding: 0;
+  z-index: 997;
+  transition: all 0.3s ease;
+}
+
+.quick-sidebar.open .container {
+  right: 0;
+}
+
+.quick-sidebar .header {
+  background-color: $dark;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+}
+
+.quick-sidebar .header .title {
+  color: #fff;
+}
+
+.quick-sidebar .header a[data-toggle="close-quick-sidebar"] {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: $light-grey;
+}
+
+.quick-sidebar .body {
+  padding: 20px;
+}
+
+.filter-min-height {
+  overflow-y: auto;
+  height: 600px;
+  min-height: 600px;
+}

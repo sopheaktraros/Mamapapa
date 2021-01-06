@@ -1,0 +1,14 @@
+@media print {
+    .timetable-tr-header
+    {
+        -webkit-print-color-adjust: exact;
+        background-color: #aaaaaa70 !important;
+    }
+    #table-items thead tr > th {
+        background-color: #aaaaaa8c !important;
+        -webkit-print-color-adjust: exact;
+    }
+    .receipt-header-title {
+        margin-left: 14rem !important;
+    }
+}
